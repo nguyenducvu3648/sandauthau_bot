@@ -1,0 +1,28 @@
+# Synonyms cho BM25 search - format: term => synonyms
+# Viết tắt
+xd, xây dựng
+xdcb, xây dựng cơ bản
+ms, mua sắm
+dt, đấu thầu
+ctxd, chi tiết xây dựng
+tkkt, thiết kế kỹ thuật
+
+# Hình thức đấu thầu
+mua sắm, thu mua, đấu thầu, gói thầu
+chỉ định thầu, chỉ định, chào hàng
+đấu thầu rộng rãi, đấu thầu công khai
+mua sắm trực tiếp, mua trực tiếp
+
+# Hoạt động
+xây dựng, thi công, xây lắp
+sửa chữa, bảo trì, bảo dưỡng
+thiết kế, lập dự án
+giám sát, tư vấn giám sát, tvgs
+cung cấp, mua sắm, thu mua
+
+# Lĩnh vực
+cầu, cầu đường, giao thông
+trường, trường học, giáo dục
+bệnh viện, y tế, cơ sở y tế
+đường, đường bộ, giao thông
+thủy lợi, thuỷ lợi, kênh mương

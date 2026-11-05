@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "query": "xây dựng cầu",
+    "expected_methods": ["vector"],
+    "expected_filters": {},
+    "description": "Simple keyword search - vector"
+  },
+  {
+    "id": 2,
+    "query": "gói thầu xây dựng cầu Hà Nội",
+    "expected_methods": ["vector"],
+    "expected_filters": {"location": "Hà Nội"},
+    "description": "Keyword + location filter"
+  },
+  {
+    "id": 3,
+    "query": "xây dựng cầu Hà Nội giá dưới 5 tỷ",
+    "expected_methods": ["vector"],
+    "expected_filters": {"location": "Hà Nội", "max_price": 5000000000},
+    "description": "Keyword + location + max price"
+  },
+  {
+    "id": 4,
+    "query": "gói thầu giá trên 10 tỷ TP.HCM",
+    "expected_methods": ["vector"],
+    "expected_filters": {"location": "TP.HCM", "min_price": 10000000000},
+    "description": "Keyword + location + min price"
+  },
+  {
+    "id": 5,
+    "query": "đấu thầu rộng rãi Đà Nẵng năm 2024",
+    "expected_methods": ["vector"],
+    "expected_filters": {"location": "Đà Nẵng", "bidForm": "Đấu thầu rộng rãi", "year": 2024},
+    "description": "Multiple filters: location + bidForm + year"
+  },
+  {
+    "id": 6,
+    "query": "gói thầu xây dựng hạ tầng giao thông kết nối vùng đồng bằng sông Hồng với các tỉnh miền núi phía Bắc",
+    "expected_methods": ["hybrid"],
+    "expected_filters": {},
+    "description": "Long complex query - hybrid search"
+  },
+  {
+    "id": 7,
+    "query": "mua sắm thiết bị y tế",
+    "expected_methods": ["vector"],
+    "expected_filters": {},
+    "description": "Medical equipment keyword search"
+  },
+  {
+    "id": 8,
+    "query": "Hà Nội năm 2023",
+    "expected_methods": ["filter"],
+    "expected_filters": {"location": "Hà Nội", "year": 2023},
+    "description": "Filter-only search (no meaningful keywords)"
+  },
+  {
+    "id": 9,
+    "query": "chỉ định thầu Bình Dương",
+    "expected_methods": ["vector"],
+    "expected_filters": {"location": "Bình Dương", "bidForm": "Chỉ định thầu"},
+    "description": "bidForm filter + location"
+  },
+  {
+    "id": 10,
+    "query": "DT-2024-123",
+    "expected_methods": ["bm25"],
+    "expected_filters": {},
+    "description": "Bid code search - BM25 exact match"
+  },
+  {
+    "id": 11,
+    "query": "cung cấp văn phòng phẩm giá từ 500 triệu đến 2 tỷ",
+    "expected_methods": ["vector"],
+    "expected_filters": {"min_price": 500000000, "max_price": 2000000000},
+    "description": "Price range filter"
+  },
+  {
+    "id": 12,
+    "query": "xin chào",
+    "expected_methods": [],
+    "expected_filters": {},
+    "expected_intent": "casual",
+    "description": "Casual query - no search"
+  },
+  {
+    "id": 13,
+    "query": "cảm ơn",
+    "expected_methods": [],
+    "expected_filters": {},
+    "expected_intent": "casual",
+    "description": "Casual query - thanks"
+  },
+  {
+    "id": 14,
+    "query": "xây dựng trường học Nghệ An năm 2024 giá dưới 20 tỷ",
+    "expected_methods": ["vector"],
+    "expected_filters": {"location": "Nghệ An", "year": 2024, "max_price": 20000000000},
+    "description": "Complex: keyword + location + year + price"
+  },
+  {
+    "id": 15,
+    "query": "mua sắm trực tiếp",
+    "expected_methods": ["vector"],
+    "expected_filters": {"bidForm": "Mua sắm trực tiếp"},
+    "description": "bidForm only filter"
+  }
+]

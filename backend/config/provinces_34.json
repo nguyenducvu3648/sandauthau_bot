@@ -1,0 +1,890 @@
+{
+  "Tuyên Quang": {
+    "codes": [
+      "211",
+      "201",
+      "08"
+    ],
+    "aliases": [
+      "Hà Giang",
+      "Tuyên Quang",
+      "ha giang",
+      "tuyen quang"
+    ],
+    "search_keys": [
+      "ha giang",
+      "hà giang",
+      "tuyen quang",
+      "tuyên quang"
+    ],
+    "merged_from": [
+      "Hà Giang",
+      "Tuyên Quang"
+    ],
+    "doc_count": 8578,
+    "missing_old_data": []
+  },
+  "Lào Cai": {
+    "codes": [
+      "205",
+      "15"
+    ],
+    "aliases": [
+      "Lào Cai",
+      "Yên Bái",
+      "lao cai",
+      "yen bai"
+    ],
+    "search_keys": [
+      "lao cai",
+      "lào cai",
+      "yen bai",
+      "yên bái"
+    ],
+    "merged_from": [
+      "Lào Cai",
+      "Yên Bái"
+    ],
+    "doc_count": 7829,
+    "missing_old_data": []
+  },
+  "Thái Nguyên": {
+    "codes": [
+      "19",
+      "207",
+      "215"
+    ],
+    "aliases": [
+      "Bắc Kạn",
+      "Thái Nguyên",
+      "bac kan",
+      "thai nguyen"
+    ],
+    "search_keys": [
+      "bac kan",
+      "bắc kạn",
+      "thai nguyen",
+      "thái nguyên"
+    ],
+    "merged_from": [
+      "Bắc Kạn",
+      "Thái Nguyên"
+    ],
+    "doc_count": 10984,
+    "missing_old_data": []
+  },
+  "Phú Thọ": {
+    "codes": [
+      "305",
+      "217",
+      "25",
+      "219"
+    ],
+    "aliases": [
+      "Hòa Bình",
+      "Phú Thọ",
+      "Vĩnh Phúc",
+      "hoa binh",
+      "phu tho",
+      "vinh phuc"
+    ],
+    "search_keys": [
+      "hoa binh",
+      "hòa bình",
+      "phu tho",
+      "phú thọ",
+      "vinh phuc",
+      "vĩnh phúc"
+    ],
+    "merged_from": [
+      "Phú Thọ",
+      "Vĩnh Phúc",
+      "Hòa Bình"
+    ],
+    "doc_count": 19957,
+    "missing_old_data": []
+  },
+  "Bắc Ninh": {
+    "codes": [
+      "221",
+      "24",
+      "223"
+    ],
+    "aliases": [
+      "Bắc Giang",
+      "Bắc Ninh",
+      "bac giang",
+      "bac ninh"
+    ],
+    "search_keys": [
+      "bac giang",
+      "bac ninh",
+      "bắc giang",
+      "bắc ninh"
+    ],
+    "merged_from": [
+      "Bắc Ninh",
+      "Bắc Giang"
+    ],
+    "doc_count": 13446,
+    "missing_old_data": []
+  },
+  "Hưng Yên": {
+    "codes": [
+      "115",
+      "109",
+      "33"
+    ],
+    "aliases": [
+      "Hưng Yên",
+      "Thái Bình",
+      "hung yen",
+      "thai binh"
+    ],
+    "search_keys": [
+      "hung yen",
+      "hưng yên",
+      "thai binh",
+      "thái bình"
+    ],
+    "merged_from": [
+      "Hưng Yên",
+      "Thái Bình"
+    ],
+    "doc_count": 15670,
+    "missing_old_data": []
+  },
+  "Hải Phòng": {
+    "codes": [
+      "107",
+      "103",
+      "31"
+    ],
+    "aliases": [
+      "HP",
+      "Hai Phong",
+      "Hải Dương",
+      "Hải Phòng",
+      "hai duong",
+      "hai phong",
+      "haiphong",
+      "thành phố hải phòng",
+      "tp. hải phòng"
+    ],
+    "search_keys": [
+      "hai duong",
+      "hai phong",
+      "haiphong",
+      "hp",
+      "hải dương",
+      "hải phòng",
+      "thanh pho hai phong",
+      "tp. hai phong"
+    ],
+    "merged_from": [
+      "Hải Phòng",
+      "Hải Dương"
+    ],
+    "doc_count": 21537,
+    "missing_old_data": []
+  },
+  "Ninh Bình": {
+    "codes": [
+      "111",
+      "117",
+      "113"
+    ],
+    "aliases": [
+      "Hà Nam",
+      "Nam Định",
+      "Ninh Bình",
+      "ha nam",
+      "nam dinh",
+      "ninh binh"
+    ],
+    "search_keys": [
+      "ha nam",
+      "hà nam",
+      "nam dinh",
+      "nam đinh",
+      "nam định",
+      "ninh binh",
+      "ninh bình"
+    ],
+    "merged_from": [
+      "Ninh Bình",
+      "Nam Định",
+      "Hà Nam"
+    ],
+    "doc_count": 15523,
+    "missing_old_data": []
+  },
+  "Quảng Trị": {
+    "codes": [
+      "409",
+      "407",
+      "46"
+    ],
+    "aliases": [
+      "Quảng Bình",
+      "Quảng Trị",
+      "quang binh",
+      "quang tri"
+    ],
+    "search_keys": [
+      "quang binh",
+      "quang tri",
+      "quảng bình",
+      "quảng trị"
+    ],
+    "merged_from": [
+      "Quảng Trị",
+      "Quảng Bình"
+    ],
+    "doc_count": 10560,
+    "missing_old_data": []
+  },
+  "Đà Nẵng": {
+    "codes": [
+      "503",
+      "48",
+      "501"
+    ],
+    "aliases": [
+      "Da Nang",
+      "Quảng Nam",
+      "da nang",
+      "danang",
+      "quang nam",
+      "thành phố đà nẵng",
+      "tp. đà nẵng",
+      "ĐN",
+      "Đà Nẵng"
+    ],
+    "search_keys": [
+      "da nang",
+      "danang",
+      "quang nam",
+      "quảng nam",
+      "thanh pho đa nang",
+      "tp. đa nang",
+      "đa nang",
+      "đn",
+      "đà nẵng"
+    ],
+    "merged_from": [
+      "Đà Nẵng",
+      "Quảng Nam"
+    ],
+    "doc_count": 18368,
+    "missing_old_data": []
+  },
+  "Quảng Ngãi": {
+    "codes": [
+      "601",
+      "505"
+    ],
+    "aliases": [
+      "Kon Tum",
+      "Quảng Ngãi",
+      "kon tum",
+      "kontum",
+      "quang ngai"
+    ],
+    "search_keys": [
+      "kon tum",
+      "kontum",
+      "quang ngai",
+      "quảng ngãi"
+    ],
+    "merged_from": [
+      "Quảng Ngãi",
+      "Kon Tum"
+    ],
+    "doc_count": 9783,
+    "missing_old_data": []
+  },
+  "Gia Lai": {
+    "codes": [
+      "603",
+      "52",
+      "507"
+    ],
+    "aliases": [
+      "Bình Định",
+      "Gia Lai",
+      "binh dinh",
+      "gia lai"
+    ],
+    "search_keys": [
+      "binh dinh",
+      "binh đinh",
+      "bình định",
+      "gia lai"
+    ],
+    "merged_from": [
+      "Gia Lai",
+      "Bình Định"
+    ],
+    "doc_count": 13198,
+    "missing_old_data": []
+  },
+  "Khánh Hòa": {
+    "codes": [
+      "705",
+      "511",
+      "56"
+    ],
+    "aliases": [
+      "Khánh Hòa",
+      "Nha Trang",
+      "Ninh Thuận",
+      "khanh hoa",
+      "nha trang",
+      "ninh thuan"
+    ],
+    "search_keys": [
+      "khanh hoa",
+      "khánh hòa",
+      "nha trang",
+      "ninh thuan",
+      "ninh thuận"
+    ],
+    "merged_from": [
+      "Khánh Hòa",
+      "Ninh Thuận"
+    ],
+    "doc_count": 10580,
+    "missing_old_data": []
+  },
+  "Lâm Đồng": {
+    "codes": [
+      "715",
+      "703",
+      "606"
+    ],
+    "aliases": [
+      "Bình Thuận",
+      "Lâm Đồng",
+      "binh thuan",
+      "da lat",
+      "lam dong",
+      "Đà Lạt",
+      "Đắk Nông",
+      "đà lạt"
+    ],
+    "search_keys": [
+      "binh thuan",
+      "bình thuận",
+      "da lat",
+      "lam dong",
+      "lam đong",
+      "lâm đồng",
+      "đa lat",
+      "đắk nông"
+    ],
+    "merged_from": [
+      "Lâm Đồng",
+      "Đắk Nông",
+      "Bình Thuận"
+    ],
+    "doc_count": 13333,
+    "missing_old_data": []
+  },
+  "Đắk Lắk": {
+    "codes": [
+      "509",
+      "605"
+    ],
+    "aliases": [
+      "Phú Yên",
+      "phu yen",
+      "Đắk Lắk"
+    ],
+    "search_keys": [
+      "phu yen",
+      "phú yên",
+      "đắk lắk"
+    ],
+    "merged_from": [
+      "Đắk Lắk",
+      "Phú Yên"
+    ],
+    "doc_count": 3966,
+    "missing_old_data": []
+  },
+  "TP. Hồ Chí Minh": {
+    "codes": [
+      "711",
+      "717",
+      "79",
+      "701"
+    ],
+    "aliases": [
+      "BD",
+      "BRVT",
+      "BRVTVT",
+      "Bà Rịa - Vũng Tàu",
+      "Bình Dương",
+      "HCM",
+      "TP HCM",
+      "TP. Hồ Chí Minh",
+      "TPHCM",
+      "Vũng Tàu",
+      "ba ria",
+      "binh duong",
+      "ho chi minh",
+      "hồ chí minh",
+      "sai gon",
+      "saigon",
+      "sài gòn",
+      "thành phố hồ chí minh",
+      "thủ dầu mộc",
+      "tp. hồ chí minh",
+      "vung tau",
+      "vũng tàu"
+    ],
+    "search_keys": [
+      "ba ria",
+      "ba ria - vung tau",
+      "bd",
+      "binh duong",
+      "brvt",
+      "brvtvt",
+      "bà rịa - vũng tàu",
+      "bình dương",
+      "hcm",
+      "ho chi minh",
+      "sai gon",
+      "saigon",
+      "thanh pho ho chi minh",
+      "thu dau moc",
+      "tp hcm",
+      "tp hồ chí minh",
+      "tp. ho chi minh",
+      "tphcm",
+      "vung tau"
+    ],
+    "merged_from": [
+      "TP. Hồ Chí Minh",
+      "Bình Dương",
+      "Bà Rịa - Vũng Tàu"
+    ],
+    "doc_count": 65767,
+    "missing_old_data": []
+  },
+  "Đồng Nai": {
+    "codes": [
+      "75",
+      "707",
+      "713"
+    ],
+    "aliases": [
+      "Bình Phước",
+      "binh phuoc",
+      "dong nai",
+      "Đồng Nai"
+    ],
+    "search_keys": [
+      "binh phuoc",
+      "bình phước",
+      "dong nai",
+      "đong nai",
+      "đồng nai"
+    ],
+    "merged_from": [
+      "Đồng Nai",
+      "Bình Phước"
+    ],
+    "doc_count": 16278,
+    "missing_old_data": []
+  },
+  "Tây Ninh": {
+    "codes": [
+      "709",
+      "80",
+      "801"
+    ],
+    "aliases": [
+      "Long An",
+      "Tây Ninh",
+      "long an",
+      "tay ninh"
+    ],
+    "search_keys": [
+      "long an",
+      "tay ninh",
+      "tây ninh"
+    ],
+    "merged_from": [
+      "Tây Ninh",
+      "Long An"
+    ],
+    "doc_count": 11039,
+    "missing_old_data": []
+  },
+  "Cần Thơ": {
+    "codes": [
+      "816",
+      "92",
+      "819",
+      "815"
+    ],
+    "aliases": [
+      "CT",
+      "Can Tho",
+      "Cần Thơ",
+      "Hậu Giang",
+      "Sóc Trăng",
+      "can tho",
+      "cantho",
+      "hau giang",
+      "soc trang",
+      "thành phố cần thơ",
+      "tp. cần thơ"
+    ],
+    "search_keys": [
+      "can tho",
+      "cantho",
+      "ct",
+      "cần thơ",
+      "hau giang",
+      "hậu giang",
+      "soc trang",
+      "sóc trăng",
+      "thanh pho can tho",
+      "tp. can tho"
+    ],
+    "merged_from": [
+      "Cần Thơ",
+      "Hậu Giang",
+      "Sóc Trăng"
+    ],
+    "doc_count": 12361,
+    "missing_old_data": []
+  },
+  "Vĩnh Long": {
+    "codes": [
+      "811",
+      "809",
+      "86",
+      "817"
+    ],
+    "aliases": [
+      "Bến Tre",
+      "Trà Vinh",
+      "Vĩnh Long",
+      "ben tre",
+      "tra vinh",
+      "vinh long"
+    ],
+    "search_keys": [
+      "ben tre",
+      "bến tre",
+      "tra vinh",
+      "trà vinh",
+      "vinh long",
+      "vĩnh long"
+    ],
+    "merged_from": [
+      "Vĩnh Long",
+      "Bến Tre",
+      "Trà Vinh"
+    ],
+    "doc_count": 11913,
+    "missing_old_data": []
+  },
+  "Đồng Tháp": {
+    "codes": [
+      "807",
+      "803",
+      "82"
+    ],
+    "aliases": [
+      "Tiền Giang",
+      "dong thap",
+      "tien giang",
+      "Đồng Tháp"
+    ],
+    "search_keys": [
+      "dong thap",
+      "tien giang",
+      "tiền giang",
+      "đong thap",
+      "đồng tháp"
+    ],
+    "merged_from": [
+      "Đồng Tháp",
+      "Tiền Giang"
+    ],
+    "doc_count": 9927,
+    "missing_old_data": []
+  },
+  "Cà Mau": {
+    "codes": [
+      "821",
+      "823",
+      "96"
+    ],
+    "aliases": [
+      "Bạc Liêu",
+      "Cà Mau",
+      "bac lieu",
+      "ca mau"
+    ],
+    "search_keys": [
+      "bac lieu",
+      "bạc liêu",
+      "ca mau",
+      "cà mau"
+    ],
+    "merged_from": [
+      "Cà Mau",
+      "Bạc Liêu"
+    ],
+    "doc_count": 7867,
+    "missing_old_data": []
+  },
+  "An Giang": {
+    "codes": [
+      "91",
+      "805",
+      "813"
+    ],
+    "aliases": [
+      "An Giang",
+      "Kiên Giang",
+      "an giang",
+      "kien giang"
+    ],
+    "search_keys": [
+      "an giang",
+      "kien giang",
+      "kiên giang"
+    ],
+    "merged_from": [
+      "An Giang",
+      "Kiên Giang"
+    ],
+    "doc_count": 10387,
+    "missing_old_data": []
+  },
+  "Hà Nội": {
+    "codes": [
+      "101",
+      "01",
+      "213",
+      "15"
+    ],
+    "aliases": [
+      "HN",
+      "Hanoi",
+      "Hà Nội",
+      "TP Hà Nội",
+      "Thủ đô",
+      "ha noi",
+      "hanoi",
+      "thanh pho ha noi",
+      "thu do",
+      "thành phố hà nội",
+      "thủ đô",
+      "tp ha noi",
+      "tp hà nội"
+    ],
+    "search_keys": [
+      "ha noi",
+      "hanoi",
+      "hn",
+      "hà nội",
+      "thanh pho ha noi",
+      "thu do",
+      "thu đo",
+      "tp ha noi"
+    ],
+    "merged_from": [],
+    "doc_count": 77113,
+    "missing_old_data": []
+  },
+  "Cao Bằng": {
+    "codes": [
+      "04",
+      "203"
+    ],
+    "aliases": [
+      "Cao Bằng",
+      "cao bang"
+    ],
+    "search_keys": [
+      "cao bang",
+      "cao bằng"
+    ],
+    "merged_from": [],
+    "doc_count": 4600,
+    "missing_old_data": []
+  },
+  "Điện Biên": {
+    "codes": [
+      "301"
+    ],
+    "aliases": [
+      "dien bien",
+      "Điện Biên"
+    ],
+    "search_keys": [
+      "dien bien",
+      "đien bien",
+      "điện biên"
+    ],
+    "merged_from": [],
+    "doc_count": 4855,
+    "missing_old_data": []
+  },
+  "Lai Châu": {
+    "codes": [
+      "302"
+    ],
+    "aliases": [
+      "Lai Châu",
+      "lai chau"
+    ],
+    "search_keys": [
+      "lai chau",
+      "lai châu"
+    ],
+    "merged_from": [],
+    "doc_count": 3926,
+    "missing_old_data": []
+  },
+  "Sơn La": {
+    "codes": [
+      "303"
+    ],
+    "aliases": [
+      "Sơn La",
+      "son la"
+    ],
+    "search_keys": [
+      "son la",
+      "sơn la"
+    ],
+    "merged_from": [],
+    "doc_count": 6922,
+    "missing_old_data": []
+  },
+  "Lạng Sơn": {
+    "codes": [
+      "20",
+      "209"
+    ],
+    "aliases": [
+      "Lạng Sơn",
+      "lang son"
+    ],
+    "search_keys": [
+      "lang son",
+      "lạng sơn"
+    ],
+    "merged_from": [],
+    "doc_count": 5335,
+    "missing_old_data": []
+  },
+  "Quảng Ninh": {
+    "codes": [
+      "225"
+    ],
+    "aliases": [
+      "Hạ Long",
+      "Quảng Ninh",
+      "ha long",
+      "halong",
+      "hạ long",
+      "quang ninh"
+    ],
+    "search_keys": [
+      "ha long",
+      "halong",
+      "quang ninh",
+      "quảng ninh"
+    ],
+    "merged_from": [],
+    "doc_count": 14549,
+    "missing_old_data": []
+  },
+  "Thanh Hóa": {
+    "codes": [
+      "401",
+      "38"
+    ],
+    "aliases": [
+      "Thanh Hóa",
+      "thanh hoa"
+    ],
+    "search_keys": [
+      "thanh hoa",
+      "thanh hóa"
+    ],
+    "merged_from": [],
+    "doc_count": 15153,
+    "missing_old_data": []
+  },
+  "Nghệ An": {
+    "codes": [
+      "403",
+      "40"
+    ],
+    "aliases": [
+      "Nghệ An",
+      "nghe an",
+      "tp vinh",
+      "vinh"
+    ],
+    "search_keys": [
+      "nghe an",
+      "nghệ an",
+      "tp vinh",
+      "vinh"
+    ],
+    "merged_from": [],
+    "doc_count": 12994,
+    "missing_old_data": []
+  },
+  "Hà Tĩnh": {
+    "codes": [
+      "42",
+      "405"
+    ],
+    "aliases": [
+      "Hà Tĩnh",
+      "ha tinh"
+    ],
+    "search_keys": [
+      "ha tinh",
+      "hà tĩnh"
+    ],
+    "merged_from": [],
+    "doc_count": 6374,
+    "missing_old_data": []
+  },
+  "Huế": {
+    "codes": [
+      "411"
+    ],
+    "aliases": [
+      "Huế",
+      "Thừa Thiên Huế",
+      "hue",
+      "huế",
+      "thua thien hue",
+      "tp huế"
+    ],
+    "search_keys": [
+      "hue",
+      "thua thien hue",
+      "thừa thiên huế",
+      "tp hue"
+    ],
+    "merged_from": [],
+    "doc_count": 7010,
+    "missing_old_data": []
+  }
+}

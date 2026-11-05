@@ -1,0 +1,55 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local datasets and generated exports
+/data/
+/mongo_sample_export/data/
+/mongo_sample_export/checkpoints_*/
+/backend/results/
+
+# Local databases and test output
+*.db
+*.sqlite
+*.sqlite3
+/test_results.json
+/backend/test_results.txt
+/backend/tests/test_results*.txt
+
+# Logs
+*.log
+*.log.*
+
+# Local agent settings
+.claude

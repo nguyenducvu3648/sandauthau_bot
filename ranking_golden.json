@@ -1,0 +1,20 @@
+[
+  {
+    "query": "xây dựng cầu Hà Nội",
+    "relevance": {
+      "comment": "Queries phải có: location match + keyword match cao, giá trị cao hơn tốt hơn, năm gần hơn tốt hơn"
+    }
+  },
+  {
+    "query": "mua sắm thiết bị y tế 2024",
+    "relevance": {
+      "comment": "Ưu tiên: year=2024, keyword match 'thiết bị y tế', giá trị cao"
+    }
+  },
+  {
+    "query": "đấu thầu rộng rãi TP.HCM",
+    "relevance": {
+      "comment": "Ưu tiên: bidForm exact match, location TP.HCM"
+    }
+  }
+]

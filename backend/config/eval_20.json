@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "query": "gói thầu ở Hà Nội",
+    "intent": "search",
+    "expected_filters": {"location": ["101", "01", "213", "15"]},
+    "expected_method": "hybrid"
+  },
+  {
+    "id": 2,
+    "query": "dự án xây dựng tại TP.HCM",
+    "intent": "search",
+    "expected_filters": {"location": ["701", "79"]},
+    "expected_method": "hybrid"
+  },
+  {
+    "id": 3,
+    "query": "tìm gói thầu ở Đà Nẵng",
+    "intent": "search",
+    "expected_filters": {"location": ["501", "48"]},
+    "expected_method": "hybrid"
+  },
+  {
+    "id": 4,
+    "query": "gói thầu tại HN",
+    "intent": "search",
+    "expected_filters": {"location": ["101", "01", "213", "15"]},
+    "expected_method": "hybrid"
+  },
+  {
+    "id": 5,
+    "query": "gói thầu năm 2024",
+    "intent": "search",
+    "expected_filters": {"year": 2024},
+    "expected_method": "hybrid"
+  },
+  {
+    "id": 6,
+    "query": "dự án năm 2023 ở Hà Nội",
+    "intent": "search",
+    "expected_filters": {"year": 2023, "location": ["101", "01", "213", "15"]},
+    "expected_method": "hybrid"
+  },
+  {
+    "id": 7,
+    "query": "gói thầu dưới 5 tỷ",
+    "intent": "search",
+    "expected_filters": {"max_price": 5000000000},
+    "expected_method": "hybrid"
+  },
+  {
+    "id": 8,
+    "query": "dự án trên 10 tỷ",
+    "intent": "search",
+    "expected_filters": {"min_price": 10000000000},
+    "expected_method": "hybrid"
+  },
+  {
+    "id": 9,
+    "query": "gói thầu dưới 1 tỷ ở Hà Nội năm 2024",
+    "intent": "search",
+    "expected_filters": {"max_price": 1000000000, "location": ["101", "01", "213", "15"], "year": 2024},
+    "expected_method": "hybrid"
+  },
+  {
+    "id": 10,
+    "query": "gói thầu BP2200225863",
+    "intent": "search",
+    "expected_filters": {},
+    "expected_method": "bm25_code",
+    "expected_code": "BP2200225863"
+  },
+  {
+    "id": 11,
+    "query": "thông tin gói BP2200094095",
+    "intent": "search",
+    "expected_filters": {},
+    "expected_method": "bm25_code",
+    "expected_code": "BP2200094095"
+  },
+  {
+    "id": 12,
+    "query": "gói thầu sắp hết hạn",
+    "intent": "search",
+    "expected_filters": {},
+    "expected_method": "metadata_only"
+  },
+  {
+    "id": 13,
+    "query": "gói thầu giá trị lớn nhất",
+    "intent": "search",
+    "expected_filters": {},
+    "expected_method": "metadata_only"
+  },
+  {
+    "id": 14,
+    "query": "gói thầu mới nhất ở Hà Nội",
+    "intent": "search",
+    "expected_filters": {"location": ["101", "01", "213", "15"]},
+    "expected_method": "metadata_only"
+  },
+  {
+    "id": 15,
+    "query": "có bao nhiêu gói thầu ở Hà Nội",
+    "intent": "aggregation",
+    "expected_filters": {"location": ["101", "01", "213", "15"]},
+    "expected_method": "aggregation"
+  },
+  {
+    "id": 16,
+    "query": "thống kê gói thầu năm 2024",
+    "intent": "aggregation",
+    "expected_filters": {"year": 2024},
+    "expected_method": "aggregation"
+  },
+  {
+    "id": 17,
+    "query": "top 5 tỉnh có nhiều gói thầu nhất",
+    "intent": "aggregation",
+    "expected_filters": {},
+    "expected_method": "aggregation"
+  },
+  {
+    "id": 18,
+    "query": "xin chào",
+    "intent": "casual",
+    "expected_filters": {},
+    "expected_method": "none"
+  },
+  {
+    "id": 19,
+    "query": "cảm ơn bạn",
+    "intent": "casual",
+    "expected_filters": {},
+    "expected_method": "none"
+  },
+  {
+    "id": 20,
+    "query": "gói thầu không phải ở Hà Nội",
+    "intent": "search",
+    "expected_filters": {},
+    "expected_method": "hybrid",
+    "llm_signal": "negation"
+  }
+]

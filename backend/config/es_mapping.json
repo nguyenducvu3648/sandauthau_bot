@@ -1,0 +1,62 @@
+{
+  "settings": {
+    "analysis": {
+      "filter": {
+        "vietnamese_stop": {
+          "type": "stop",
+          "stopwords": ["của", "và", "các", "cho", "từ", "được", "có", "là", "trong", "với", "để", "về"]
+        },
+        "vi_synonym": {
+          "type": "synonym",
+          "synonyms_path": "synonyms.txt"
+        }
+      },
+      "analyzer": {
+        "vi_standard": {
+          "tokenizer": "standard",
+          "filter": ["lowercase", "asciifolding", "vietnamese_stop"]
+        },
+        "vi_search": {
+          "tokenizer": "standard",
+          "filter": ["lowercase", "asciifolding", "vi_synonym", "vietnamese_stop"]
+        }
+      }
+    },
+    "index": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0
+    }
+  },
+  "mappings": {
+    "properties": {
+      "bidCode": {"type": "keyword"},
+      "bidName": {
+        "type": "text",
+        "analyzer": "vi_search",
+        "fields": {
+          "keyword": {"type": "keyword"}
+        }
+      },
+      "search_text": {
+        "type": "text",
+        "analyzer": "vi_search"
+      },
+      "procuringEntityName": {
+        "type": "text",
+        "analyzer": "vi_standard"
+      },
+      "provCode": {"type": "keyword"},
+      "districtCode": {"type": "keyword"},
+      "bidPrice": {"type": "long"},
+      "bidForm": {"type": "keyword"},
+      "publicDate": {"type": "date"},
+      "deadline": {"type": "date"},
+      "embedding": {
+        "type": "dense_vector",
+        "dims": 384,
+        "index": true,
+        "similarity": "cosine"
+      }
+    }
+  }
+}
